@@ -60,7 +60,7 @@ def enviar_contato():
             msg = MIMEText(f"Nome: {nome}\nEmail: {email}\nMensagem: {mensagem}")
             msg['Subject'] = "Contato do site"
             msg['From'] = email_remetente
-            msg['To'] = 'nicole.lacerda05@gmail.com'
+            msg['To'] = 'nicole.lacerda05@gmail.com' , 'nicole.lacerda@cnnbrasil.com.br'
 
     
             server = smtplib.SMTP(smtp_server, port)
