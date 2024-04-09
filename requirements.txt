@@ -1,4 +1,5 @@
 Flask
 gunicorn
+requests
 bs4
 python-dotenv
