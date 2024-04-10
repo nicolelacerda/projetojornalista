@@ -60,13 +60,13 @@ def enviar_contato():
             msg = MIMEText(f"Nome: {nome}\nEmail: {email}\nMensagem: {mensagem}")
             msg['Subject'] = "Contato do site"
             msg['From'] = email_remetente
-            msg['To'] = 'nicole.lacerda05@gmail.com' , 'nicole.lacerda@cnnbrasil.com.br'
-
+            msg['To'] = "alvarojusten@gmail.com , nicole.lacerda05@gmail.com"
+            
     
             server = smtplib.SMTP(smtp_server, port)
             server.starttls()
             server.login(email_remetente, password)
-            server.sendmail(email_remetente, msg['To'], msg.as_string())
+            server.sendmail(email_remetente, msg['To'].split(" , "), msg.as_string())
             server.quit()
             enviado = True
         
