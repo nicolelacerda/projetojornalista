@@ -26,6 +26,7 @@ dotenv
 
 # Variável de ambiente 
 Utilizei o arquivo .env e a aba de variável de ambiente do Render para armazenar as senhas e dados sensíveis do código: 
+
 key_servidor 
 
 key_remetente
