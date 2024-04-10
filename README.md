@@ -37,15 +37,19 @@ key_email
 ROTAS CRIADAS: 
 
 > /apresentacao
+
 Renderiza a primeira página do site: apresentação.html 
 
 > /materias
+
 Raspagem das matérias mais recentes publicadas pela jornalista no site https://www.jota.info/autor/melissa-duartejota-info 
 
-> /contato  
+> /contato
+
 Renderiza a página contato.html
 
 > /enviar_contato
+
 Recebe a mensagem da caixa de contato e responde o usuário com uma confirmação do envio ou mensagem de erro
 
 
