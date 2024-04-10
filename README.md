@@ -26,9 +26,12 @@ dotenv
 
 # Variável de ambiente 
 Utilizei o arquivo .env e a aba de variável de ambiente do Render para armazenar as senhas e dados sensíveis do código: 
-key_servidor
+key_servidor 
+
 key_remetente
+
 key_email
+
 
 # Página - apresentacao.html
 Esta função retorna o template inicial do site da jornalista, com nome, idade, foto e um resumo profissional. Usei o CSS para centralizar o conteúdo do site, ajustar a foto e fonte das letras, mudar as cores das letras. 
