@@ -6,13 +6,21 @@ O projeto pretende reunir em um único site informações importantes sobre uma 
 
 # Bibliotecas
 requests
+
 bs4 
+
 flask 
+
 smtplib
+
 email.mime.multipart 
+
 email.mime.text 
+
 os
+
 dotenv 
+
 
 # Variável de ambiente 
 Utilizei o arquivo .env e a aba de variável de ambiente do Render para armazenar as senhas e dados sensíveis do código: 
