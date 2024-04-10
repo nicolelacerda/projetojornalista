@@ -11,15 +11,15 @@ Todas as páginas possuem um menu que liga os endereços: Apresentação | Portf
 
 #### Bibliotecas
 
-requests > para fazer a requisição
+requests > fazer requisição
 
 bs4 > extrair os dados html
 
 flask > desenvolver o site
 
-smtplib > envio de e-mails com SMTP
+smtplib > envias e-mails com SMTP
 
-email.mime.multipart + email.mime.text > contruir o e-mail
+email.mime.multipart + email.mime.text > construir o e-mail
 
 os + dotenv > acessar as variáveis de ambiente 
 
@@ -50,7 +50,7 @@ Renderiza a página contato.html
 
 > /enviar_contato
 
-Recebe a mensagem da caixa de contato e responde o usuário com uma confirmação do envio ou mensagem de erro
+Recebe a mensagem da caixa de contato e responde o usuário com a confirmação do envio ou com mensagem de erro identificando o problema
 
 
 ## Templates
@@ -66,4 +66,3 @@ Para esta página, eu criei duas funções: a primeira é para a página estáti
 A segunda função (/enviar_contato) tem o objetivo de receber por e-mail a mensagem enviada pelo usuário na caixa de contato e enviar para o usuário uma resposta automática como confirmação de que a mensagem foi enviada para a jornalista. 
 Usei o provedor BREVO nesta etapa.
 
-No fim do código, utilizei o recurso - except Exception as e: - para capturar possíveis mensagens de erro e facilitar a identificação do problema. 
