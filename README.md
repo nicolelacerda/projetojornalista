@@ -34,7 +34,22 @@ key_remetente
 key_email
 
 
+ROTAS CRIADAS: 
 
+> /apresentacao
+Renderiza a primeira página do site: apresentação.html 
+
+> /materias
+Raspagem das matérias mais recentes publicadas pela jornalista no site https://www.jota.info/autor/melissa-duartejota-info 
+
+> /contato  
+Renderiza a página contato.html
+
+> /enviar_contato
+Recebe a mensagem da caixa de contato e responde o usuário com uma confirmação do envio ou mensagem de erro
+
+
+## Templates
 
 ### Página - apresentacao.html
 Esta função retorna o template inicial do site da jornalista, com nome, idade, foto e um resumo profissional. Usei o CSS para centralizar o conteúdo do site, ajustar a foto e fonte das letras, mudar as cores das letras. 
