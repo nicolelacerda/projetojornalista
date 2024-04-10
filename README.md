@@ -28,13 +28,13 @@ key_servidor
 key_remetente
 key_email
 
-# Página apresentacao.html
+# Página - apresentacao.html
 Esta função retorna o template inicial do site da jornalista, com nome, idade, foto e um resumo profissional. Usei o CSS para centralizar o conteúdo do site, ajustar a foto e fonte das letras, mudar as cores das letras. 
 
-# Página materias.html
+# Página - materias.html
 Neste função, eu apliquei o código que raspa as últimas matérias publicadas pela jornalista no site que ela trabalha (https://www.jota.info/autor/melissa-duartejota-info). A função extrai o link e o título das matérias e adiciona em uma lista. Essa lista é o resultado mostrado ao carregar a página do site. Ao clicar em cada item, o usuário é direcionado para a publicação original. 
 
-# Página contato.html
+# Página - contato.html
 Para esta página, eu criei duas funções: a primeira é para a página estática, quando o usuário acessa (/contato). 
 A segunda função (/enviar_contato) tem o objetivo de receber por e-mail a mensagem enviada pelo usuário na caixa de contato e enviar para o usuário uma resposta automática como confirmação de que a mensagem foi enviada para a jornalista. 
 Usei o provedor BREVO nesta etapa.
