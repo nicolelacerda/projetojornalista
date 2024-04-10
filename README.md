@@ -6,25 +6,25 @@ O projeto pretende reunir em um único site informações importantes sobre uma 
 
 Todas as páginas possuem um menu que liga os endereços: Apresentação | Portfólio | Contato
 
-### Bibliotecas
-requests
 
-bs4 
+## app.py
 
-flask 
+#### Bibliotecas
 
-smtplib
+requests > para fazer a requisição
 
-email.mime.multipart 
+bs4 > extrair os dados html
 
-email.mime.text 
+flask > desenvolver o site
 
-os
+smtplib > envio de e-mails com SMTP
 
-dotenv 
+email.mime.multipart + email.mime.text > contruir o e-mail
+
+os + dotenv > acessar as variáveis de ambiente 
 
 
-### Variável de ambiente 
+#### Variável de ambiente 
 Utilizei o arquivo .env e a aba de variável de ambiente do Render para armazenar as senhas e dados sensíveis do código: 
 
 key_servidor 
@@ -32,6 +32,8 @@ key_servidor
 key_remetente
 
 key_email
+
+
 
 
 ### Página - apresentacao.html
