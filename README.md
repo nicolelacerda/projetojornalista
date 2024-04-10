@@ -2,7 +2,9 @@
 Trabalho feito para a disciplina Algoritmos de Automação do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper. Professor: Álvaro Justen 
 
 # Objetivo
-O projeto pretende reunir em um único site informações importantes sobre uma jornalista para facilitar o networking. O site possui uma página de apresentação com nome, idade, foto e um breve resumo profissional. Em outra página, é possível encontrar as matérias mais recentes que a jornalista publicou. Ao carregar a página, sempre vão aparecer as matérias mais recentes publicadas pela jornalista. Na página de contato, além dos dados, tem uma caixa de mensagem onde o usuário pode enviar uma mensagem diretamente para a jornalista. O texto escrito na caixa vai direto para o endereço da jornalista, junto com o nome e e-mail do usuário que está enviando. Todas as páginas possuem um menu que liga os endereços. 
+O projeto pretende reunir em um único site informações importantes sobre uma jornalista para facilitar o networking. O site possui uma página de apresentação com nome, idade, foto e um breve resumo profissional. Em outra página, é possível encontrar as matérias mais recentes que a jornalista publicou. Ao carregar a página, sempre vão aparecer as matérias mais recentes publicadas pela jornalista. Na página de contato, além dos dados, tem uma caixa de mensagem onde o usuário pode enviar uma mensagem diretamente para a jornalista. O texto escrito na caixa vai direto para o endereço da jornalista, junto com o nome e e-mail do usuário que está enviando. 
+
+Todas as páginas possuem um menu que liga os endereços: Apresentação | Portfólio | Contato
 
 # Bibliotecas
 requests
