@@ -75,4 +75,4 @@ def enviar_contato():
             return f"Erro ao enviar mensagem: {e}"
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=True) 

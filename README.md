@@ -29,6 +29,6 @@ Neste função, eu apliquei o código que raspa as últimas matérias publicadas
 # Página contato.html
 Para esta página, eu criei duas funções: a primeira é para a página estática, quando o usuário acessa (/contato). 
 A segunda função (/enviar_contato) tem o objetivo de receber por e-mail a mensagem enviada pelo usuário na caixa de contato e enviar para o usuário uma resposta automática como confirmação de que a mensagem foi enviada para a jornalista. 
-Usei o provedor BREVO nesta etapa. 
+Usei o provedor BREVO nesta etapa.
 
 No fim do código, utilizei o recurso - except Exception as e: - para capturar possíveis mensagens de erro e facilitar a identificação do problema. 
